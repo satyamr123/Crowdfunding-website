@@ -59,10 +59,9 @@ ul{
 }
 .image-editor{
     position: relative;
-    top: 4%;
-    right:10%;
+    
     padding: 0%;
-    margin: 5%;
+    margin: 0% 5%;
     border: none; 
     height:700px;
     width:500px;
