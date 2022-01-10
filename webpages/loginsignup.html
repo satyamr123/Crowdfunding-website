@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>LoginSignup page</title>
+
+    <link rel="stylesheet" href="../styles/loginsignup.css">
+</head>
+
+<body>
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="./pricing.html" class="form" id="form1">
+                <h2 class="form__title">Sign Up</h2>
+                <input type="text" placeholder="Username" class="input" required>
+                <input type="email" placeholder="Email" class="input" required>
+                <input type="password" placeholder="Password" class="input" required>
+                <button class="btn">Sign Up</button>
+                <span>
+                    <a href="../index.html" class="linkers">Back to Home</a>
+                </span>
+            </form>
+        </div>
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">Sign In</h2>
+                <input type="email" placeholder="Email" class="input" required>
+                <input type="password" placeholder="Password" class="input" required>
+                <a href="forgotpassword.html" class="link">Forgot your password?</a>
+                <button class="btn">Sign In</button>
+                <span>
+                    <a href="../index.html" class="linkers" justify-content="bottom">Back to Home</a>
+                </span>
+            </form>
+        </div>
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/loginsignup.js" async defer></script>
+</body>
+
+</html>
