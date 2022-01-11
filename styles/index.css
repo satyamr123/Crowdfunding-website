@@ -52,19 +52,54 @@ ul{
 /*Body --------------------------- styles*/
 
 .firstpart{
-	position:relative;
+	
 	margin-top: 1em;
 }
 .left-panel{
 	box-sizing:border-box;
 	margin:0px;
-	 border: none;
+	
     padding:0%;
 
 }
+.r1{
+	margin:0.5em 0em;
+	margin-top: 1em;
+	height: 30%;
+	padding: auto;
+	text-align: left;
+	font-weight: bolder;
+}
+.r2{margin: 0.5em 0em;
+	padding: auto;
+	height:30%;
+	
+}
+.main-row2{
+	 
+	 margin-top: 1em;
+	 
+	 text-align: center;
+	 font-size: 1em;
+}
+.card{
+	
+	margin-top: 1em;
+	margin-bottom: 1em;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
 .left-button{
   background: none;
-  color:#92ff60;
+  color:#30df38;
   border: 2px solid;
   padding: 1em 2em;
   font-size: 1em;
