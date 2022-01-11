@@ -1,5 +1,5 @@
 body{
-	background-color: #9b93f5;
+	background-color: rgb(27, 151, 33);
 	font-family: 'josefin Sans', Sans-serif;
 }
 img{
@@ -12,6 +12,7 @@ img{
 	margin: 0px 40px 20px 0px;
 	cursor: pointer;
 }
+
 
 label{
 	color: #000;
@@ -35,4 +36,9 @@ label{
 	color:#000;
 	border-radius: 5px;
 	width: 100%
+}
+.panel{
+	border: 2px solid white;
+	background-color: white;
+
 }

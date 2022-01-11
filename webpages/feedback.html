@@ -15,56 +15,58 @@
 <body>
 
 
+    <div class="panel">
+        <div class="container">
+            <div class="row common">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+                    <h1 class="text-center mt-5 font-weight-bold">Feedback</h1>
+                    <hr class="bg-white">
+                    <h6 class="text-center">Please write your feedback below:</h6>
+                    <h3 class="mt-4">How do you rate your overall experience?</h3>
 
-                <h1 class="text-center mt-5 font-weight-bold">Feedback</h1>
-                <hr class="bg-white">
-                <h6 class="text-center">Please write your feedback below:</h6>
-                <h3 class="mt-4">How do you rate your overall experience?</h3>
+                    <form action="../index.html">
+                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Bad</label>
+                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Average</label>
+                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Good</label>
 
-                <form>
-                    <label class="radio-inline"><input type="radio" name="experience" value="bad">Bad</label>
-                    <label class="radio-inline"><input type="radio" name="experience" value="bad">Average</label>
-                    <label class="radio-inline"><input type="radio" name="experience" value="bad">Good</label>
-
+                </div>
             </div>
+
+            <div class="row common">
+                <div class="col-md-2"></div>
+                <label class="col-md-4">Full Name*<br>
+                    <input type="text" id="text" required="" placeholder="Abdul Rafay"></label>
+
+                <label class="col-md-4">Email*<br>
+                    <input type="text" id="text" required="" placeholder="theprovider@gmail.com"></label>
+            </div>
+
+            <div class="row common">
+                <div class="col-md-2"></div>
+                <label class="col-md-4">Age*<br>
+                    <input type="number" id="text" required="" placeholder="25"></label>
+
+                <label class="col-md-4">Phone*<br>
+                    <input type="number" id="text" required="" placeholder="+92123456789"></label>
+            </div>
+
+            <div class="row common">
+                <div class="col-md-2"></div>
+                <label class="col-md-8">Message*<br>
+                    <textarea id="message" required="" placeholder="Write yor message here" cols="48"
+                        rows="5"></textarea></label>
+            </div>
+
+            <div class="row common">
+                <div class="col-md-2 common"></div>
+                <button class="btn btn-primary" style="width: auto;">Submit</button>
+            </div>
+            </form>
         </div>
-
-        <div class="row">
-            <div class="col-md-2"></div>
-            <label class="col-md-4">Full Name*<br>
-                <input type="text" id="text" required="" placeholder="Abdul Rafay"></label>
-
-            <label class="col-md-4">Email*<br>
-                <input type="text" id="text" required="" placeholder="theprovider@gmail.com"></label>
-        </div>
-
-        <div class="row">
-            <div class="col-md-2"></div>
-            <label class="col-md-4">Age*<br>
-                <input type="number" id="text" required="" placeholder="25"></label>
-
-            <label class="col-md-4">Phone*<br>
-                <input type="number" id="text" required="" placeholder="+92123456789"></label>
-        </div>
-
-        <div class="row">
-            <div class="col-md-2"></div>
-            <label class="col-md-8">Message*<br>
-                <textarea id="message" required="" placeholder="Write yor message here" cols="48"
-                    rows="5"></textarea></label>
-        </div>
-
-        <div class="row">
-            <div class="col-md-2"></div>
-            <button class="btn btn-primary" style="width: 53.5%; position: absolute; margin-left: 15%;">Submit</button>
-        </div>
-        </form>
     </div>
+
 
 </body>
 
