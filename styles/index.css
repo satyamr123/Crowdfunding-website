@@ -50,7 +50,17 @@ ul{
 	list-style: none;
 }
 /*Body --------------------------- styles*/
-
+.intro{
+	margin: 1em;
+}
+.logo{
+	height:200px;
+	width: 200px;
+}
+.moto{text-align: center;
+      justify-content: center;
+	  font-size: 22px;
+}
 .firstpart{
 	
 	margin-top: 1em;
