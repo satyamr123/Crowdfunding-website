@@ -51,15 +51,16 @@ ul{
 }
 /*Body --------------------------- styles*/
 
-.cont-img{
-    border: none;
-    padding:0%;
-    margin:0px;
-
-}
 .firstpart{
 	position:relative;
 	margin-top: 1em;
+}
+.left-panel{
+	box-sizing:border-box;
+	margin:0px;
+	 border: none;
+    padding:0%;
+
 }
 .left-button{
   background: none;
