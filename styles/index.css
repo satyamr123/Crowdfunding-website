@@ -57,8 +57,26 @@ ul{
     margin:0px;
 
 }
+.firstpart{
+	position:relative;
+	margin-top: 1em;
+}
+.left-button{
+  background: none;
+  color:#92ff60;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
 
-
+.left-button:hover {
+  border-color: #e75858;
+  color: rgb(139, 47, 47);
+  box-shadow: 0 0.5em 0.5em -0.4em #e75858;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
 
 
 
