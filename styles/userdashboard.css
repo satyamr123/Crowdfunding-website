@@ -1,4 +1,6 @@
-
+body{
+    background-color: #151b29;
+}
 .cont1{
     box-sizing: border-box;
     position: cover;
@@ -26,13 +28,13 @@
     margin-top: 1em;
 }
 .card{
-    
+    background-color: #151b29;
     box-sizing: border-box;
     display: inline-block;
     margin-left: 5em;
     height: 300px;
-    color: #30df38;
-    border: 2px solid #30df38;
+    color: #ffa260;;
+    border: 2px solid #ffa260;;
     padding: 1em 2em;
     font-size: 1em;
     transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
@@ -40,11 +42,11 @@
     
 }
 .card:hover{
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.25s;
     transform: translate( 10px,-20px);
-    color: #e75858;
-    border-color: #e75858;
-    box-shadow: 0 0.5em 0.5em -0.4em #e75858;
+    color: #f1ff5c;
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.25em);
     cursor: pointer;
     
@@ -54,20 +56,25 @@
     margin-top: 20em;
 }
 .start-fundraiser-button{
-  margin-left: 40%;
+  margin-left: 30%;
   margin-top: 1em;
+  margin-bottom: 1em;
   background: none;
-  color:#30df38;
+  color:#ffa260;;
   border: 2px solid;
   padding: 1em 2em;
   font-size: 1em;
+  width: 700px;
   transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
 }
 
 .start-fundraiser-button:hover {
-  border-color: #e75858;
-  color: rgb(139, 47, 47);
-  box-shadow: 0 0.5em 0.5em -0.4em #e75858;
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
   transform: translateY(-0.25em);
   cursor: pointer;
+}
+.intro{
+    color: aliceblue;
 }
