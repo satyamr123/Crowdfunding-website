@@ -1,0 +1,27 @@
+.cont1{
+    box-sizing: border-box;
+    position: cover;
+    margin: 0em;
+    margin-top: 1em;
+    width: 1520px;
+}
+.row1{
+    
+    width: 1520px;
+}
+.side-menu{
+    
+    display: inline-block;
+}
+.card-container{
+    
+    border-left: 2px solid black;
+    justify-content: end;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.card{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 5em;
+}
