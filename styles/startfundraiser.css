@@ -12,9 +12,13 @@ body{
 }
 .container{
     background-color: antiquewhite;
-    border-radius: 10px;
+    border-radius: 20px;
     position: absolute;
     top: 5em;
     left: 4em;
     right: 4em;
+}
+.sub-but{
+    margin-top: 2em;
+    margin-left: 2em;
 }
