@@ -1,0 +1,20 @@
+body{
+    padding:2em; 
+    background-color: greenyellow;
+}
+.project-details{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.amount{
+    width:20%;
+    margin-bottom: 2em;
+}
+.container{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: absolute;
+    top: 5em;
+    left: 4em;
+    right: 4em;
+}
